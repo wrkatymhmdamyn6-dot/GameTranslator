@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="مترجم زنده بازی"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="با زدن دکمهٔ فعال‌سازی، اجازهٔ نمایش روی برنامه‌های دیگر و ضبط صفحه را بده. سپس بازی را باز کن و هر زمان خواستی دکمهٔ شناور FA را بزن."
+        android:textAlignment="center"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="فعال‌سازی دکمه ترجمه" />
+</LinearLayout>
